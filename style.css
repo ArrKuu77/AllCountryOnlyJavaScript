@@ -1,0 +1,232 @@
+.html,body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.MenuBar{
+    background-color: #ffffff;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MenuContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.MenuTitle{
+    font-size: 20px;
+    font-weight: 800;
+}
+.LightAndDarkMode{
+    border: none;
+    height: 50%;
+}
+.DarkMood{
+    background-color: black;
+    color: black;
+}
+.lightMood{
+    background-color: lightgray;
+    color: black;
+}
+.UnderMenuEmpty{
+    width: 100%;
+    height: 2px;
+    background-color: lightslategray;
+}
+.FilderContainer{
+    display: none;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+}
+.autoCompleteInpute{
+    width: 30%;
+    height: 100%;
+}
+.FilderRegionMenu{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 5%;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+}
+.FilderDownArrow{
+    cursor: pointer;
+}
+.CountryModelRegion{
+    margin-top: 30px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.AllCountryBody{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.OneCountry,.OurCountry{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    /* width: 20%; */
+    border-radius: 10px;
+   margin-bottom: 5%;
+   user-select: none;
+   cursor: pointer;
+   transition: transform 0.4s ease-in-out;
+}
+.OneCountry:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.OurCountry:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.countryImgDiv{
+    width: 100%;
+    height: 200px;
+}
+.CountryImg{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* object-fit: cover; */
+    height: 100%;
+}
+.CountryInformation{
+    padding: 0% 5%;
+    margin-bottom: 5%;
+}
+.CountryName{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5% 0%;
+}
+span{
+    color: lightslategray;
+}
+.FilderRegions{
+    background-color: white;
+    width: 13%;
+    right: 5.3%;
+    /* border-radius: 20px; */
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+}
+.Regions{
+    padding: 5%;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: solid 1px lightslategray;
+}
+.CountryModal{
+    margin-top: 5%;
+    padding: 0% 5%;
+}
+.OneCountryData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.leftContainer{
+    width: 50%;
+}
+.BackButtom{
+    border: none;
+    background-color: lightgray;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 3%;
+    color: black;
+}
+.leftImage{
+    width: 100%;
+    margin-top: 10px;
+    height: 350px;
+}
+.CountryImg{
+    width: 100%;
+}
+.rightContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 15px;
+}
+.CountryNameData{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.rightRT{
+    padding-top: 100px;
+}
+.CountryData{
+    color: lightslategray;
+}
+.CountryModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+}
+.CountryModelRegion{
+    background-color: white;
+    padding-top: 5%;
+    margin-top: 0%;
+    display: none;
+}
+.rightLF{
+    width: 50%;
+}
+.countryModalName{
+    margin-top: 2%;
+    padding: 0% 5%;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 900;
+    width: 90%;
+    margin-left: 5%;
+}
+.CountryData{
+    margin-left: 5%;
+    font-weight: 700;
+}
+@media (max-width: 450px) {
+    .FilderRegions {
+        width: 30%;
+        font-size: 80%;
+    }
+    .autoCompleteInpute{
+        width: 43%;
+    }
+}
