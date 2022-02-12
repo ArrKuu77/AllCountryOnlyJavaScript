@@ -229,4 +229,10 @@ span{
     .autoCompleteInpute{
         width: 43%;
     }
+    .rightContainer{
+        font-size: 80%;
+    }
+    .rightLF{
+        margin-right: 3%;
+    }
 }
