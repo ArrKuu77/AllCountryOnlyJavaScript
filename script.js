@@ -212,9 +212,10 @@ const OneCountryDisplay = (country) => {
         <img class="CountryImg" src="${country.flags.png}" alt="">
     </div>
 </div>
+<div class="rightContainerMain">
+<div class="CountryNameData">${country.name.common}</div>
 <div class="rightContainer">
     <div class="rightLF">
-        <div class="CountryNameData">${country.name.common}</div>
         <div>NatuveName<span class="CountryData">${country.name.common}</span></div>
         <div>Population<span class="CountryData">${country.population}</span></div>
         <div>Region<span class="CountryData">${country.region}</span></div>

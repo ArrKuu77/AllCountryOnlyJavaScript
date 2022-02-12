@@ -174,10 +174,13 @@ span{
 .CountryImg{
     width: 100%;
 }
+.rightContainerMain{
+    width: 50%;
+}
 .rightContainer{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     font-size: 15px;
 }
 .CountryNameData{
@@ -185,9 +188,7 @@ span{
     font-weight: 700;
     margin-bottom: 20px;
 }
-.rightRT{
-    padding-top: 100px;
-}
+
 .CountryData{
     color: lightslategray;
 }
