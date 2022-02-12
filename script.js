@@ -287,9 +287,10 @@ const OnceCountryRegion = (region) => {
                 <img class="CountryImg" src="${FilderMobleRegion[FilderCountryId].flags.png}" alt="">
             </div>
         </div>
+        <div class="rightContainerMain">
+        <div class="CountryNameData">${FilderMobleRegion[FilderCountryId].name.common}</div>
         <div class="rightContainer">
             <div class="rightLF">
-                <div class="CountryNameData">${FilderMobleRegion[FilderCountryId].name.common}</div>
                 <div>NatuveName<span class="CountryData">${FilderMobleRegion[FilderCountryId].name.common}</span></div>
                 <div>Population<span class="CountryData">${FilderMobleRegion[FilderCountryId].population}</span></div>
                 <div>Region<span class="CountryData">${FilderMobleRegion[FilderCountryId].region}</span></div>
